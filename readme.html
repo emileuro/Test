@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; Citește-mă</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+	<br />
+	Versiunea 4.9
+</h1>
+<p style="text-align: center">Platformă Semantică de Publicare Personală</p>
+
+<h2>În primul și în primul rând</h2>
+<p>Bine ați venit. WordPress este un proiect foarte special pentru mine. Fiecare programator sau contributor adaugă ceva unic în amestec și împreună creăm ceva frumos la care sunt mândru să particip. Mii de ore au intrat în WordPress și suntem hotărâți să-l facem mai bun cu fiecare zi. Îți mulțumim că l-ai ales să facă parte din lumea ta.</p>
+<p style="text-align: right">&#8212; Matt Mullenweg</p>
+
+<h2>Instalare: Faimoasa instalare de 5-minute</h2>
+<ol>
+	<li>Dezarhivează pachetul într-un director gol și încarcă totul pe server.</li>
+	<li>Deschide <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> într-un navigator web. Vei parcurge procesul de setarea a fișierului <code>wp-config.php</code> cu detaliile conectării la baza ta de date.
+		<ol>
+		  <li>Dacă dintr-un oarecare motiv asta nu merge, nu te îngrijora. Nu merge pe toate serverele de găzduire web. Deschide <code>wp-config-sample.php</code> cu un editor de text ca WordPad sau similar și completează detaliile conectării la baza ta de date.</li>
+			<li>Salvează fișierul cu numele <code>wp-config.php</code> și înacrcă-l pe server.</li>
+			<li>Deschide <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> într-un navigator web.</li>
+		</ol>
+	</li>
+	<li>Odată ce fișierul de configurare este setat, instalatorul va crea tabelele necesare pentru blogul tău. Dacă apare o eroare, verifică fișierul tău <code>wp-config.php</code> și încearcă din nou. Dacă eșuează din nou, te rog intră pe <a href="https://ro.forums.wordpress.org/forum/support" title="Suport WordPress">forumurile de suport</a> cu toate datele pe care le poți aduna despre instalare.</li>
+	<li><strong>Dacă nu ai introdus o parolă, notează-ți parola primită.</strong> Dacă nu ai completat un nume de utilizator, acesta va fi <code>admin</code>.</li>
+	<li>Instalatorul te va conduce apoi la <a href="wp-login.php">pagina de logare</a>. Înscrie-te cu numele de utilizator și parola alese la instalare. Dacă ți-a fost generată o parolă, poți ulterior să intri pe &#8220;Profil&#8221; și să o modifici.</li>
+</ol>
+
+<h2>Actualizarea</h2>
+<h3>Utilizarea Actualizării automate</h3>
+<p>Dacă faci actualizarea de la versiunea 2.7 sau mai mare poți folosi actualizarea automată:</p>
+<ol>
+	<li>Deschide <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> într-un navigator web și urmează instrucțiunile.</li>
+	<li>Poate ai vrea mai mult? Asta-i tot!</li>
+</ol>
+
+<h3>Actualizare manuală</h3>
+<ol>
+	<li>Înainte de a actualiza orice, asigură-te că ai copii de rezervă a oricărui fișier pe care l-ai modificat, cum ar fi <code>index.php</code>.</li>
+	<li>Șterge vechile fișiere WordPress, salvându-le pe cele modificate de tine.</li>
+	<li>Încarcă pe server noile fișiere.</li>
+	<li>Deschide <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a> folosind un navigator web.</span></li>
+</ol>
+
+<h2>Migrarea de pe alte sisteme</h2>
+<p>WordPress poate <a href="https://codex.wordpress.org/Importing_Content">importa date din câteva alte sisteme</a>. În primul rând trebuie să ai un WordPress instalat și funcțional așa cum s-a descris mai sus, înainte de a folosi <a href="wp-admin/import.php" title="Import în WordPress">uneltele noastre de import</a>.</p>
+
+<h2>Cerințe sistem</h2>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> versiunea <strong>5.2.4</strong> sau mai mare.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> versiunea<strong>5.0</strong> sau mai mare.</li>
+</ul>
+
+<h3>Recomandări</h3>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> versiunea <strong>7</strong> sau mai nouă.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> versiunea <strong>5.6</strong> sau mai nouă.</li>
+	<li>Modulul Apache <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+	<li>Suport <a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a>.</li> 	
+	<li>Un link la <a href="https://wordpress.org/">wordpress.org</a> de pe situl tău.</li>
+</ul>
+
+<h2>Resurse online</h2>
+<p>Dacă ai orice întrebare ce nu-și găsește răspunsul în acest document, te rog folosește numeroasele resurse online ale WordPress:</p>
+<dl>
+	<dt><a href="https://codex.wordpress.org/">Codexul WordPress</a></dt>
+		<dd>Codexul este enciclopedia a tot ce este WordPress. Este cea mai cuprinzătoare sursă de informații disponibilă despre WordPress.</dd>
+	<dt><a href="https://wordpress.org/news/">Blogul WordPress</a></dt>
+		<dd>Aici vei găsi ultimele actualizări și știri despre WordPress. Cele mai recente știri despre WordPress apar implicit și în panoul tău de control administrativ.</dd>
+	<dt><a href="https://planet.wordpress.org/">WordPress Planet</a></dt>
+		<dd>WordPress Planet este un agregator de știri ce aduce împreună postările de pe bloguri WordPress din întreg internetul.</dd>
+	<dt><a href="https://ro.forums.wordpress.org/">Forumurile de suport WordPress</a></dt>
+		<dd>Dacă ai căutat peste tot și încă n-ai găsit un răspuns, forumurile de suport sunt foarte active și au o comunitate mare, gata să te ajute. Pentru a le face să te ajute, asigură-te că folosești un titlu de fir de discuție descriptiv și că formulezi întrebarea cu cât mai multe detalii cu putință.</dd>
+	<dt><a href="https://codex.wordpress.org/IRC">Canalul IRC al WordPress</a></dt>
+		<dd>Există un canal de chat online utilizat pentru discuții între oamenii care utilizează WordPress și ocazional cu subiecte de suport. Pagina wiki de mai înainte ar trebui să te conducă în direcția corectă. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
+
+<h2>Note de final</h2>
+<ul>
+	<li>Dacă ai orice sugestii, idei, sau comentarii, sau dacă (uff!) găsești un bug, alătură-te nouă pe <a href="https://ro.forums.wordpress.org/">Forumurile de suport</a>.</li>
+	<li>WordPress are un API robust pentru module (plugin) ce face ușoară extinderea <abbr title="application programming interface"></abbr>codului. Dacă ești un programator interesat de folosirea lui, vezi <a href="https://codex.wordpress.org/Plugin_API" title="WordPress plugin API">documentația pentru module (plugin) din Codex</a>. Nu trebuie să modifici nimic din codul de bază.</li>
+</ul>
+
+<h2>Răspândește dragostea</h2>
+<p>WordPress nu are o campanie de marketing de multe milioane de dolari sau sponsori celebri, însă avem ceva mult mai bun &#8212; te avem pe tine. Dacă-ți place să folosești WordPress gândește-te să-i spui asta unui prieten, instalează-l pentru cineva care nu are cunoștințele tale, sau împărtășește cunoștințele tale cu autori media și jurnaliști pe care îi cunoaști și convinge-i să scrie despre WordPress.</p>
+
+<p>WordPress este continuatorul oficial al <a href="http://cafelog.com/">b2/caf&#233;log</a>, creat de Michel V. Munca a fost continuată de <a href="https://wordpress.org/about/">programatorii WordPress</a>. Dacă dorești să sprijini WordPress, consideră o <a href="https://wordpress.org/donate/" title="Donate to WordPress">donație</a>.</p>
+
+<h2>Licență</h2>
+<p>WordPress este un software gratuit, și este distribuit sub termenii de licențiere <abbr title="GNU General Public License">GPL</abbr> versiunea 2 sau (la opțiunea ta) orice versiune ulterioară. Vezi <a href="license.txt">license.txt</a>.</p>
+
+</body>
+</html>
